@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>_UI_</title>
+   <style>
+    .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .custom-select {
+    position: relative;
+    top: 8px;
+    left: 55px;
+  }
+
+  .custom-select2 {
+    position: relative;
+    top: 28px;
+    left: 55px;
+  }
+
+  .custom-select-link {
+    position: relative;
+    top: 48px;
+    left: 55px;
+  }
+
+  .custom-select-link2 {
+    position: relative;
+    top: 68px;
+    left: 55px;
+  }
+
+  </style>
+</head>
+
+<body>
+     
+    <div class= "flex_container">
+        <div class="container">
+            <div style= "background-color: gainsboro; padding: 10px; margin: 20px;
+                width: 300px; height: 270px; float:left;">
+    
+                <select name="node_id" style="width:200px;height:50px;" class="custom-select">
+                    <option value="node_id" selected>node_id</option>
+                </select>
+    
+                <select name="node_guid" style="width:200px;height:50px;" class="custom-select2">
+                    <option value="node_guid" selected>node_guid</option>
+                </select>
+    
+                <select name="link_id" style="width:200px;height:50px;" class="custom-select-link">
+                    <option value="link_id" selected>link_id</option>
+                </select>
+    
+                <select name="link_guid" style="width:200px;height:50px;" class="custom-select-link2">
+                    <option value="link_guid" selected>link_guid</option>
+                </select>
+            </div>
+    
+            <div style= "background-color: gainsboro; padding: 10px; margin: 20px;
+                 width: 300px; height: 400px; float:left;">
+                
+                <script>
+                    var node_id_ = 1;
+                    var node_guid_ = 2;
+                    var link_id_ = 3;
+                    var link_guid_ = 4;
+                    var node_category_name_ = 5;
+                    var node_family_name_ = 6;
+                    var start_node_id_ = 7;
+                    var end_node_id_ = 8;
+                    var start_node_guid_ = 9;
+                    var end_node_guid_ = 10;
+                    var link_category_name_ = 11;
+                    var link_family_name_ = 12;
+                    document.write("node_id : ") + document.write(node_id_+"<br/>");
+                    document.write("node_guid : ") + document.write(node_guid_+"<br/>");
+                    document.write("link_id : ") + document.write(link_id_+"<br/>");
+                    document.write("link_guid : ") + document.write(link_guid_+"<br/>");
+                    document.write("node_category_name : ") + document.write(node_category_name_+"<br/>");
+                    document.write("node_family_name : ") + document.write(node_family_name_+"<br/>");
+                    document.write("start_node_id : ") + document.write(start_node_id_+"<br/>");
+                    document.write("end_node_id : : ") + document.write(end_node_id_+"<br/>");
+                    document.write("start_node_guid : ") +  document.write(start_node_guid_+"<br/>");
+                    document.write("end_node_guid : ") + document.write(end_node_guid_+"<br/>");
+                    document.write("link_category_name : ") + document.write(link_category_name_+"<br/>");
+                    document.write("link_family_name : " ) + document.write(link_family_name_);
+                </script>
+                
+
+        
+            </div>
+        </div>
+
+        <div style= "border: 3px solid black; padding: 10px; margin: 20px;
+        width: 1500px; height: 725px; float:left;">
+
+        </div>
+    </div>
+
+</body>
+</html>
